@@ -25,22 +25,22 @@ public class Program {
 			
 		for(int i = 1; i < 1+qtdProdutos; i++) {
 			
-			System.out.printf("\nCadastre o %dï¿½ item abaixo\n", i);
+			System.out.printf("\nCadastre o %dº item abaixo\n", i);
 			
 			System.out.print("Nome do produto: ");
 			String nomeProduto = sc.nextLine();
 			
-			System.out.print("Preï¿½o: ");
+			System.out.print("Preço: ");
 			double precoProduto = sc.nextDouble();
 			System.out.print("Quantidade: ");
 			int quantidadeProduto = sc.nextInt();
 			
-			System.out.print("\nC-cama, mesa e banho\nE-eletrodomï¿½stico\nV-vestuï¿½rio\nCategoria (C, E ou V):");
+			System.out.print("\nC-cama, mesa e banho\nE-eletrodoméstico\nV-vestuário\nCategoria (C, E ou V):");
 			char categoriaProduto = Character.toUpperCase(sc.next().charAt(0));
 			sc.nextLine();
 			
 			while(categoriaProduto != 'C' && categoriaProduto != 'E' && categoriaProduto != 'V') {
-				System.out.print("\nCaracter invï¿½lido! Preencha novamente:\nCategoria (C, E ou V): ");
+				System.out.print("\nCaracter inválido! Preencha novamente:\nCategoria (C, E ou V): ");
 				categoriaProduto = Character.toUpperCase(sc.next().charAt(0));
 			}
 			
@@ -63,13 +63,13 @@ public class Program {
 				imposto = precoProdutoFinal*(impostoV);
 				lucro = precoProdutoFinal*(lucroV);
 			}
-			System.out.printf("\n%dÂº Produto adicionado!\n", i);
-			System.out.printf("Nome: %s, Preï¿½o: R$ %.2f, Qtd: %d, Categoria: %s, Imposto: R$ %.2f, Lucro: R$ %.2f, Preï¿½o final: R$ %.2f\n",
+			System.out.printf("\n%dº Produto adicionado!\n", i);
+			System.out.printf("Nome: %s, Preço: R$ %.2f, Qtd: %d, Categoria: %s, Imposto: R$ %.2f, Lucro: R$ %.2f, Preço final: R$ %.2f\n",
 					nomeProduto, precoProduto, quantidadeProduto, categoriaProduto, imposto, lucro, precoProdutoFinal
 					);		
 		}
 		
-		System.out.println("\nCadastros concluï¿½dos!\n");
+		System.out.println("\nCadastros concluídos!\n");
 		System.out.printf("%20s   %-10s   %-20s %-25s %-25s %-15s\n", "Categoria", "Qtd Total", "Total Investido", "Total Imposto", "Total Lucro", "Total");
 		System.out.println("----------------------------------------------------------------------------------------------------------------------------------");
 		System.out.printf("%20s   %-10d   R$ %-17.2f (%.2f%%) R$ %-13.2f (%.0f%%) R$ %-16.2f R$ %-12.2f \n", 
@@ -83,7 +83,7 @@ public class Program {
 							totalC
 						);
 		System.out.printf("%20s   %-10d   R$ %-17.2f (%.2f%%) R$ %-13.2f (%.0f%%) R$ %-16.2f R$ %-12.2f \n",  
-							"Eletrodomï¿½stico", 
+							"Eletrodoméstico", 
 							categoriaE, 
 							totalE*(1-(impostoE+lucroE)), 
 							impostoE*100,
@@ -93,7 +93,7 @@ public class Program {
 							totalE
 						);
 		System.out.printf("%20s   %-10d   R$ %-17.2f (%.2f%%) R$ %-13.2f (%.0f%%) R$ %-16.2f R$ %-12.2f \n", 
-							"Vestuï¿½rio", 
+							"Vestuário", 
 							categoriaV, 
 							totalV*(1-(impostoV+lucroV)), 
 							impostoV*100,
