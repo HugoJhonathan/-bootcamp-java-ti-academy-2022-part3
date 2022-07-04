@@ -1,10 +1,10 @@
 /*
 
-O programa recebe a renda de um funcion·rio.
+O programa recebe a renda de um funcion√°rio.
 Calcule e mostre o desconto do imposto de
 renda com base na tabela a seguir.
 
-AtÈ R$ 1903,98       Isento     R$ 0,00
+At√© R$ 1903,98       Isento     R$ 0,00
 R$ 2826,65             7,5%     R$ 142,80
 R$ 3751,06              15%     R$ 354,80
 R$ 4664,68            22,5%     R$ 636,13
@@ -22,7 +22,7 @@ public class Exercicio2 {
 		Scanner sc = new Scanner(System.in);
 		double imposto = 0;
 		char p = '%';
-		System.out.printf("Informe a renda do funcion·rio: R$ ");
+		System.out.printf("Informe a renda do funcion√°rio: R$ ");
 		double salario = sc.nextDouble();
 		sc.close();
 		
@@ -44,11 +44,11 @@ public class Exercicio2 {
 		}
 		double porcentagem = 100 - ((salario-imposto)*100 / salario);
 				
-		System.out.printf("\n  Sal·rio bruto: R$ %.2f"
+		System.out.printf("\n  Sal√°rio bruto: R$ %.2f"
 				        + "\n        Imposto: R$ %.2f (-%.1f%c)"
-				        + "\nSal·rio Liquido: R$ %.2f\n", 
+				        + "\nSal√°rio Liquido: R$ %.2f\n", 
 				        salario, imposto, porcentagem, p, (salario-imposto));
-		System.out.println("\n          Fim da execuÁ„o.            ");
+		System.out.println("\n          Fim da execu√ß√£o.            ");
 	
 	}
 

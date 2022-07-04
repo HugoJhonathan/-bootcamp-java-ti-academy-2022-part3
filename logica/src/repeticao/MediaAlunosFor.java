@@ -10,7 +10,7 @@ public class MediaAlunosFor {
 			int contador;
 
 			for (contador = 0; contador <= 9; contador++) {
-				System.out.printf("\nDigite a %dª nota: ", contador + 1);
+				System.out.printf("\nDigite a %dÂª nota: ", contador + 1);
 				double nota = sc.nextDouble();
 				total += nota;
 			}
@@ -18,7 +18,7 @@ public class MediaAlunosFor {
 			
 			System.out.printf("\n\nTotal de alunos da classe: %d.\n", contador);
 			System.out.printf("O total de notas dos alunos: %.1f\n", total);
-			System.out.printf("A média da classe: %.1f", media);
+			System.out.printf("A mÃ©dia da classe: %.1f", media);
 
 			sc.close();
 		}

@@ -1,12 +1,12 @@
-//Faça um programa que receba como entradas
+//FaÃ§a um programa que receba como entradas
 //o nome da disciplina e a quantidade de aulas
-//dadas. Além disso o programa deve solicitar
+//dadas. AlÃ©m disso o programa deve solicitar
 //as notas de um aluno nos 4 bimestres,
-//calcular a média e mostrar o total de faltas no
-//ano letivo. O programa deve retornar a média
+//calcular a mÃ©dia e mostrar o total de faltas no
+//ano letivo. O programa deve retornar a mÃ©dia
 //do aluno, indicar se o aluno foi aprovado
-//considerando a média superior a 6,0 e as
-//presenças superior ou igual a 75% das aulas
+//considerando a mÃ©dia superior a 6,0 e as
+//presenÃ§as superior ou igual a 75% das aulas
 //dadas.
 
 package condicional;
@@ -25,13 +25,13 @@ public class Exercicio1 {
 		System.out.printf("Quantidade de aulas dadas: ");
 		int qtdAulasDada = sc.nextInt();
 		System.out.println("-------------------------");
-		System.out.printf("Nota do Aluno do 1º Bimestre: ");
+		System.out.printf("Nota do Aluno do 1Âº Bimestre: ");
 		double nota1 = sc.nextDouble();
-		System.out.printf("Nota do Aluno do 2º Bimestre: ");
+		System.out.printf("Nota do Aluno do 2Âº Bimestre: ");
 		double nota2 = sc.nextDouble();
-		System.out.printf("Nota do Aluno do 3º Bimestre: ");
+		System.out.printf("Nota do Aluno do 3Âº Bimestre: ");
 		double nota3 = sc.nextDouble();
-		System.out.printf("Nota do Aluno do 4º Bimestre: ");
+		System.out.printf("Nota do Aluno do 4Âº Bimestre: ");
 		double nota4 = sc.nextDouble();
 		System.out.printf("Quantidade de faltas deste aluno: ");
 		int qtdFaltas = sc.nextInt();
@@ -46,7 +46,7 @@ public class Exercicio1 {
 			resultadoFinal = "REPROVADO";
 		}
 		System.out.printf("RESULTADO: \nDisciplina de %s\n\n", nomeDisciplina);
-		System.out.printf("O aluno foi %s. Média: %.2f e %.1f%c de presença.", resultadoFinal, media,porcentagemDeFaltas, p);
+		System.out.printf("O aluno foi %s. MÃ©dia: %.2f e %.1f%c de presenÃ§a.", resultadoFinal, media,porcentagemDeFaltas, p);
 
 		sc.close();
 

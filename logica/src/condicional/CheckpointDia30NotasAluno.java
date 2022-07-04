@@ -31,9 +31,9 @@ public class CheckpointDia30NotasAluno {
 		}
 		
 		System.out.printf("\nA disciplina de %s teve %d aulas dadas.\n", disciplina, quantidade);
-		System.out.printf("O aluno tirou %.1f, %.1f, %.1f e %.1f. E obteve a mÈdia %.1f.\n", n1, n2, n3, n4, media);
+		System.out.printf("O aluno tirou %.1f, %.1f, %.1f e %.1f. E obteve a m√©dia %.1f.\n", n1, n2, n3, n4, media);
 		System.out.printf("O aluno faltou %d vezes.\n", faltas);
-		System.out.printf("O aluno est·: %s.", resultado);
+		System.out.printf("O aluno est√°: %s.", resultado);
 		
 		sc.close();
 

@@ -8,11 +8,11 @@ public class Genero {
 		Scanner sc = new Scanner(System.in);
 		char genero;
 		
-		System.out.printf("Informe o gênero (F ou M): ");
+		System.out.printf("Informe o gÃªnero (F ou M): ");
 		genero = sc.next().charAt(0);
 		genero = Character.toUpperCase(genero);
 		
-		System.out.println((genero == 'F') ? "Feminino" : (genero == 'M') ? "Masculino" : "Valor Inválido");
+		System.out.println((genero == 'F') ? "Feminino" : (genero == 'M') ? "Masculino" : "Valor InvÃ¡lido");
 		
 		sc.close();
 

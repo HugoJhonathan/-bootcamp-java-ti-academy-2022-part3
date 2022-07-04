@@ -1,5 +1,5 @@
-/*Veja a tabela do aumento do sal·rio mÌnimo de
-2015 atÈ 2021.
+/*Veja a tabela do aumento do sal√°rio m√≠nimo de
+2015 at√© 2021.
 ------------
 2015 8,80%
 2016 11,67%
@@ -10,15 +10,15 @@
 2021 5,26%
 2022 10,18%
 -----------
-Um funcion·rio foi admitido
+Um funcion√°rio foi admitido
 em 2016 recebendo um
-sal·rio inicial de R$ 1.000,00,
-que ser· reajustado
+sal√°rio inicial de R$ 1.000,00,
+que ser√° reajustado
 anualmente com base no
 percentual de aumento do
-sal·rio mÌnimo.
-Calcule o sal·rio do
-funcion·rio no ano atual.
+sal√°rio m√≠nimo.
+Calcule o sal√°rio do
+funcion√°rio no ano atual.
 */
 
 package repeticao;
@@ -31,10 +31,10 @@ public class Exercicio2 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.printf("Ano de admiss„o: ");
+		System.out.printf("Ano de admiss√£o: ");
 		int anoAdmissao = sc.nextInt();
 
-		System.out.printf("Sal·rio: R$ ");
+		System.out.printf("Sal√°rio: R$ ");
 		double salario = sc.nextDouble();
 
 		double acrescimo = 0;
@@ -80,7 +80,7 @@ public class Exercicio2 {
 			}
 		}
 
-		System.out.printf("\nSalario deste funcion·rio em 2022: R$ %.2f", salario);
+		System.out.printf("\nSalario deste funcion√°rio em 2022: R$ %.2f", salario);
 		sc.close();
 	}
 }

@@ -1,4 +1,4 @@
-// Calcular o aumento de 5% sobre o sal·rio bruto de um funcion·rio
+// Calcular o aumento de 5% sobre o sal√°rio bruto de um funcion√°rio
 
 package sequencial;
 
@@ -10,11 +10,11 @@ public class Aumento1 {
 		double salarioBruto;
 		Scanner sc = new Scanner(System.in);
 
-		System.out.printf("Informe o sal·rio bruto: R$ ");
+		System.out.printf("Informe o sal√°rio bruto: R$ ");
 		salarioBruto = sc.nextDouble();
 		salarioBruto = salarioBruto * 1.05;
 
-		System.out.printf("O novo sal·rio bruto È R$ %.2f", salarioBruto);
+		System.out.printf("O novo sal√°rio bruto √© R$ %.2f", salarioBruto);
 		sc.close();
 	}
 

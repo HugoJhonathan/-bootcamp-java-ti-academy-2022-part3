@@ -9,13 +9,13 @@ public class Par {
 		
 		int num;
 		
-		System.out.println("Informe um número: ");
+		System.out.println("Informe um nÃºmero: ");
 		num = sc.nextInt();
 		
 		if(num % 2 == 0) {
-			System.out.printf("O número %d é PAR", num);
+			System.out.printf("O nÃºmero %d Ã© PAR", num);
 		}
-		System.out.println("\nEncerrando a execução.");
+		System.out.println("\nEncerrando a execuÃ§Ã£o.");
 		sc.close();
 		
 	}

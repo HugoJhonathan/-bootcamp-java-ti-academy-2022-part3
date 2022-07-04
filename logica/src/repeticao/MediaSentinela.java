@@ -25,7 +25,7 @@ public class MediaSentinela {
 			double media = total / contador;
 			System.out.printf("\n\nTotal de alunos %d\n", contador);
 			System.out.printf("Total de notas computadas: %.1f\n", total);
-			System.out.printf("Média da classe: %.1f", media);
+			System.out.printf("MÃ©dia da classe: %.1f", media);
 		}else {
 			System.out.println("\nSem notas cadastradas.");
 		}

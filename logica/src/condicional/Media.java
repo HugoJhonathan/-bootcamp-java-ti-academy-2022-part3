@@ -24,7 +24,7 @@ public class Media {
 			resultado = "REPROVADO";
 		}
 		
-		System.out.printf("\nO aluno obteve mÈdia %.1f e est· %s.\n", media, resultado);
+		System.out.printf("\nO aluno obteve m√©dia %.1f e est√° %s.\n", media, resultado);
 		System.out.println("Encerrado.");
 		
 		sc.close();

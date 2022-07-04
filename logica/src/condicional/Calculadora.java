@@ -1,9 +1,9 @@
-//O programa solicita dois n˙meros para o usu·rio. Na sequencia, mostra um menu de opıes:
+//O programa solicita dois n√∫meros para o usu√°rio. Na sequencia, mostra um menu de op√ß√µes:
 //	1. Soma
-//	2. SubtraÁ„o 
-//	3. MultiplicaÁ„o
-//	4. Divis„o
-//Caso o usu·rio escolha uma opÁ„o diferente, uma mensagem de erro deve ser apresentada.
+//	2. Subtra√ß√£o 
+//	3. Multiplica√ß√£o
+//	4. Divis√£o
+//Caso o usu√°rio escolha uma op√ß√£o diferente, uma mensagem de erro deve ser apresentada.
 package condicional;
 
 import java.util.Scanner;
@@ -21,10 +21,10 @@ public class Calculadora {
 		num2 = sc.nextDouble();
 		System.out.println("\n\nCalculadora\n");
 		System.out.println("\n1. Soma"
-				+ "\n2. SubtraÁ„o"
-				+ "\n3. MultiplicaÁ„o"
-				+ "\n4. Divis„o");
-		System.out.printf("\nEscolha uma opÁ„o: ");
+				+ "\n2. Subtra√ß√£o"
+				+ "\n3. Multiplica√ß√£o"
+				+ "\n4. Divis√£o");
+		System.out.printf("\nEscolha uma op√ß√£o: ");
 		opcao = sc.nextInt();
 		
 		switch(opcao) {
@@ -42,7 +42,7 @@ public class Calculadora {
 			break;
 		
 		default:
-			System.out.println("OpÁ„o Inv·lida!");
+			System.out.println("Op√ß√£o Inv√°lida!");
 		}
 		
 		sc.close();

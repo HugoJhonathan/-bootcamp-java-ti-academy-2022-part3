@@ -11,16 +11,16 @@ public class MediaAlunos {
 		int contador = 0;
 		
 		while (contador <= 9) {
-			System.out.printf("Digite a %dª nota: ", contador+1);
+			System.out.printf("Digite a %dÂª nota: ", contador+1);
 			double nota = sc.nextDouble();
 			total += nota; // total = total + nota
 			contador++;
 		}
 		double media = total/contador;
 		
-		System.out.printf("\n\nTotal de todas as notas é: %.1f", total);
+		System.out.printf("\n\nTotal de todas as notas Ã©: %.1f", total);
 		System.out.printf("\nTotal de alunos: %d", contador);
-		System.out.printf("\nA média da classe é: %.1f", media);
+		System.out.printf("\nA mÃ©dia da classe Ã©: %.1f", media);
 		
 		sc.close();
 	}

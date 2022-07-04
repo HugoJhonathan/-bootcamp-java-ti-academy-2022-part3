@@ -1,4 +1,4 @@
-// Informe o percentual de aumento e calcule o novo salário bruto do funcionário
+// Informe o percentual de aumento e calcule o novo salÃ¡rio bruto do funcionÃ¡rio
 
 package sequencial;
 
@@ -10,7 +10,7 @@ public class Aumento2 {
 		double salarioBruto, percentual;
 		Scanner sc = new Scanner(System.in);
 
-		System.out.printf("Informe o salário bruto: ");
+		System.out.printf("Informe o salÃ¡rio bruto: ");
 		salarioBruto = sc.nextDouble();
 		System.out.printf("Informe o percentual de aumento: ");
 		percentual = sc.nextDouble();
@@ -19,7 +19,7 @@ public class Aumento2 {
 		double acrescimo = salarioBrutoAtualizado - salarioBruto;
 		char p = '%';
 
-		System.out.printf("O salário bruto de R$ %.2f teve um aumento de %.1f%c (R$ %.2f), totalizando R$ %.2f.", 
+		System.out.printf("O salÃ¡rio bruto de R$ %.2f teve um aumento de %.1f%c (R$ %.2f), totalizando R$ %.2f.", 
 		salarioBruto, percentual, p, acrescimo, salarioBrutoAtualizado);
 
 		sc.close();

@@ -24,15 +24,15 @@ public class Imc {
 		}else if(imc < 30.0) {
 			classificacao = "Sobrepeso";
 		}else if( imc < 35.0) {
-			classificacao = "Obesidade nível I";
+			classificacao = "Obesidade nÃ­vel I";
 		}else if( imc < 40.0) {
-			classificacao = "Obesidade nível II";
+			classificacao = "Obesidade nÃ­vel II";
 		}else {
-			classificacao = "Obesidade mórbida";
+			classificacao = "Obesidade morbida";
 		}
 		
-		System.out.printf("\nO seu IMC é: %.2f "
-				+ "e está classificado como %s.", imc, classificacao);
+		System.out.printf("\nO seu IMC Ã©: %.2f "
+				+ "e estÃ¡ classificado como %s.", imc, classificacao);
 		
 		sc.close();
 	}

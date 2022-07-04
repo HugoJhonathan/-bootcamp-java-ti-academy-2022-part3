@@ -1,4 +1,4 @@
-// Calcular a média de três números
+// Calcular a mÃ©dia de trÃªs nÃºmeros
 
 package sequencial;
 
@@ -18,7 +18,7 @@ public class Media {
 		
 		double media = (n1+n2+n3)/3;
 		
-		System.out.printf("A média de %.2f, %.2f e %.2f é %.2f", n1, n2, n3, media);
+		System.out.printf("A mÃ©dia de %.2f, %.2f e %.2f Ã© %.2f", n1, n2, n3, media);
 		
 		sc.close();
 	}

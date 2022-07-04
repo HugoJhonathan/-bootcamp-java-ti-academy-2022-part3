@@ -19,11 +19,11 @@ public class Sistema {
 		
 		System.out.print("Departamento: ");
 		String depto = sc.nextLine();
-		System.out.print("Nome Funcion·rio: ");
+		System.out.print("Nome Funcion√°rio: ");
 		String func = sc.nextLine();
-		System.out.print("NÌvel (JUNIOR/PLENO/SENIOR): ");
+		System.out.print("N√≠vel (JUNIOR/PLENO/SENIOR): ");
 		String nivel = sc.nextLine();
-		System.out.print("Sal·rio base: ");
+		System.out.print("Sal√°rio base: ");
 		double salario= sc.nextDouble();
 		
 		Funcionario funcionario = new Funcionario(func, Nivel.valueOf(nivel), salario, new Departamento(depto));
@@ -33,7 +33,7 @@ public class Sistema {
 		
 		for(int i=1; i<=n; i++) {
 			System.out.println();
-			System.out.printf("Contrato n∫ %d:\n", i);
+			System.out.printf("Contrato n¬∫ %d:\n", i);
 			System.out.print("Data (DD/MM/YYYY): ");
 			Date data = sdf.parse(sc.next());
 			System.out.print("Valor da hora: ");
@@ -45,8 +45,8 @@ public class Sistema {
 			funcionario.addContrato(contrato);
 		}
 		
-		System.out.println("\nConsulta sal·rio");
-		System.out.println("Informe o mÍs e ano (MM/YYYY): ");
+		System.out.println("\nConsulta sal√°rio");
+		System.out.println("Informe o m√™s e ano (MM/YYYY): ");
 		String mesEano = sc.next();
 		
 		int mes = Integer.parseInt(mesEano.substring(0,2));
@@ -55,7 +55,7 @@ public class Sistema {
 		System.out.println();
 		System.out.println("Funcionario  : "+funcionario.getNome());
 		System.out.println("Departamento : "+funcionario.getDepartamento().getNome());
-		System.out.printf( "Sal·rio      : R$ %.2f", funcionario.ganho(ano, mes));
+		System.out.printf( "Sal√°rio      : R$ %.2f", funcionario.ganho(ano, mes));
 			
 		sc.close();
 	}

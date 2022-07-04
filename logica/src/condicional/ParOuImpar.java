@@ -10,7 +10,7 @@ public class ParOuImpar {
 		int num;
 		String resultado;
 		
-		System.out.println("Informe um número: ");
+		System.out.println("Informe um nÃºmero: ");
 		num = sc.nextInt();
 		
 		if(num % 2 == 0) {
@@ -18,8 +18,8 @@ public class ParOuImpar {
 		}else {
 			resultado = "IMPAR";
 		}
-		System.out.printf("\nO número %d é %s.", num, resultado);
-		System.out.println("\nEncerrando a execução.");
+		System.out.printf("\nO nÃºmero %d Ã© %s.", num, resultado);
+		System.out.println("\nEncerrando a execuÃ§Ã£o.");
 		
 		sc.close();
 

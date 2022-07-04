@@ -43,9 +43,9 @@ public class Veiculo {
 	}
 	
 	public String toString() {
-		return "O veículo comporta "+qtdPassageiros
+		return "O veÃ­culo comporta "+qtdPassageiros
 		+ " pessoas, tem uma capacidade de "+capacidadeTanque
-		+ " Litros de combustível, e faz "+consumo
+		+ " Litros de combustÃ­vel, e faz "+consumo
 		+ " KM/L";
 	}
 	

@@ -19,7 +19,7 @@ public class CheckpointDia30MediaPond {
 		n4 = sc.nextDouble();
 		
 		System.out.printf("As notas %.1f %.1f %.1f e %.1f.\n", n1, n2, n3, n4);
-		System.out.printf("A média ponderada é %.1f.", (n1*2+n2*2+n3*3+n4*3)/10);
+		System.out.printf("A mÃ©dia ponderada Ã© %.1f.", (n1*2+n2*2+n3*3+n4*3)/10);
 		
 		sc.close();
 

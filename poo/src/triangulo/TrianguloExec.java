@@ -16,12 +16,12 @@ public class TrianguloExec {
 		if (a.validar() == true) {
 			System.out.println(a);
 		} else {
-			System.out.println("Os lados informados n„o s„o de um tri‚ngulo!\n\n");
+			System.out.println("Os lados informados n√£o s√£o de um tri√¢ngulo!\n\n");
 		}
 		if (b.validar() == true) {
 			System.out.println(b);
 		} else {
-			System.out.println("Os lados informados n„o s„o de um tri‚ngulo!\n\n");
+			System.out.println("Os lados informados n√£o s√£o de um tri√¢ngulo!\n\n");
 		}
 
 	}

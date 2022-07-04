@@ -1,6 +1,6 @@
 //O programa deve receber um valor inteiro de
-//entrada entre 1 e 7, onde 1 È domingo e 7 È
-//s·bado, referente aos dias da semana. O
+//entrada entre 1 e 7, onde 1 √© domingo e 7 √©
+//s√°bado, referente aos dias da semana. O
 //retorno deve ser o dia da semana.
 package condicional;
 
@@ -23,7 +23,7 @@ public class Exercicio3 {
 			nomeDoDia = "Segunda-feira";
 			break;
 		case 3:
-			nomeDoDia = "TerÁa-feira";
+			nomeDoDia = "Ter√ßa-feira";
 			break;
 		case 4:
 			nomeDoDia = "Quarta-feira";
@@ -35,10 +35,10 @@ public class Exercicio3 {
 			nomeDoDia = "Sexta-feira";
 			break;
 		case 7:
-			nomeDoDia = "S·bado";
+			nomeDoDia = "S√°bado";
 			break;
 		default:
-			nomeDoDia = "OpÁ„o Inv·lida!";
+			nomeDoDia = "Op√ß√£o Inv√°lida!";
 		}
 		
 		System.out.println(nomeDoDia);

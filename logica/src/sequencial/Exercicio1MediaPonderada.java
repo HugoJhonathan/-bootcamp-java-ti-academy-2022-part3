@@ -1,5 +1,5 @@
-// Calcule e mostre a mÈdia ponderada de 4
-// valores informados pelo usu·rio
+// Calcule e mostre a m√©dia ponderada de 4
+// valores informados pelo usu√°rio
 // Mp = ( n1*2 + n2*2 + n3*3 + n4*3 ) / 10
 
 package sequencial;
@@ -22,7 +22,7 @@ public class Exercicio1MediaPonderada {
 
 		double mediaPond = (valor1 * 2 + valor2 * 2 + valor3 * 3 + valor4 * 3) / 10;
 
-		System.out.printf("MÈdia Ponderada: %.2f", mediaPond);
+		System.out.printf("M√©dia Ponderada: %.2f", mediaPond);
 		sc.close();
 	}
 
